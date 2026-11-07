@@ -10,7 +10,7 @@ import re
 import sys
 from datetime import datetime
 
-DRY_RUN = False
+DRY_RUN = True 
 TARGET_FOLDER = Path("/storage/emulated/0/Download")
 
 TEXT_EXTS = {".txt", ".md", ".csv", ".json", ".py"}
